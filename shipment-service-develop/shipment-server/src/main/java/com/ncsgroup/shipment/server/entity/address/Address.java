@@ -1,4 +1,4 @@
-package com.ncsgroup.shipment.server.entity.adress;
+package com.ncsgroup.shipment.server.entity.address;
 
 import com.ncsgroup.shipment.server.entity.base.BaseEntityWithUpdater;
 import jakarta.persistence.Entity;

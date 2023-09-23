@@ -1,4 +1,4 @@
-package com.ncsgroup.shipment.server.entity.adress;
+package com.ncsgroup.shipment.server.entity.address;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -9,10 +9,10 @@ import lombok.NoArgsConstructor;
 
 @Data
 @Entity
-@Table(name = "wards")
+@Table(name = "districts")
 @AllArgsConstructor
 @NoArgsConstructor
-public class Ward {
+public class District {
     @Id
     private String code;
     private String name;
@@ -20,5 +20,5 @@ public class Ward {
     private String fullName;
     private String fullNameEn;
     private String codeName;
-    private String districtCode;
+    private String provinceCode;
 }
